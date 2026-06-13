@@ -1,0 +1,41 @@
+{
+    "name": "lukman-ss/http",
+    "description": "A clean, modern, and dependency-free PHP 8.2+ HTTP abstraction package for Request, Response, HeaderBag, MiddlewarePipeline, and more.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukman",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "http",
+        "request",
+        "response",
+        "middleware",
+        "psr",
+        "php"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukman\\Http\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lukman\\Http\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
