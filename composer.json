@@ -1,5 +1,6 @@
 {
     "name": "lukman-ss/http",
+    "version": "1.0.0",
     "description": "A clean, modern, and dependency-free PHP 8.2+ HTTP abstraction package for Request, Response, HeaderBag, MiddlewarePipeline, and more.",
     "type": "library",
     "license": "MIT",
